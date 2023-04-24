@@ -3,47 +3,67 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+  <meta name="description" content="Author: Diego Serrano, Front-End Mentor Challenge Workit Landing Page">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="global.css" />
   <title>Frontend Mentor | Workit landing page</title>
 </head>
 <body>
-
-  Apply for access
-
-  Data tailored to your needs.
-
-  Learn more
-  
-  1
-
-  Actionable insights
-  
-  Optimize your products, improve customer satisfaction and stay ahead of the competition 
-  with our product data analytics.
-
-  2
-
-  Data-driven decisions
-
-  Make data-driven decisions with our product data analytics. Our AI-generated reports help 
-  you unlock insights hidden in your product data.
-
-  3
-
-  Always affordable
-
-  Always affordable pricing that scales with your business. Get top-quality product data 
-  analytics services without hidden costs or unexpected fees.
-
-  Be the first to test
-
-  Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a 
-  beta tester for our app and kickstart your company. Apply for access below and I’ll be 
-  in touch to schedule a call.
-
-  Apply for access
-
+  <section class="hero-section">
+      <header>
+        <img class="logo-light" src="./assets/images/logo-light.svg" alt="Logo Light Image" />
+        <button class="secondary-button primary-underline">Apply for access</button>
+      </header>
+      <div class="hero-section-title-wrapper">
+        <div class="hero-section-title">
+          Data <span class="primary-underline">tailored</span> to your needs.
+        </div>
+        <button class="primary-button">Learn more</button>
+      </div>
+      <div class="hero-img-wrapper">
+        <img class="hero-img" src="./assets/images/image-hero.webp" alt="Hero Img"/>
+      </div>
+  </section>
+  <main class="main-content">
+    <section class="offerings-section">
+      <div class="offering-item">
+        <div class="offering-number">1</div>
+        <div class="offering-title">  Actionable insights</div>
+        <div class="offering-description">  Optimize your products, improve customer satisfaction and stay ahead of the competition 
+          with our product data analytics.</div>
+      </div>
+      <div class="offering-item">
+        <div class="offering-number">2</div>
+        <div class="offering-title">Data-driven decisions</div>
+        <div class="offering-description">Make data-driven decisions with our product data analytics. Our AI-generated reports help 
+          you unlock insights hidden in your product data.
+        </div>
+      </div>
+      <div class="offering-item">
+        <div class="offering-number">3</div>
+        <div class="offering-title">Always affordable</div>
+        <div class="offering-description"> Always affordable pricing that scales with your business. Get top-quality product data 
+          analytics services without hidden costs or unexpected fees.</div>
+      </div>
+    </section>
+  </main>
+  <section class="footer-section">
+      <img class="footer-img" src="./assets/images/image-founder.webp" alt="Founder Image" />
+      <div class="footer-description-wrapper">
+        <div class="footer-description">
+          <div class="footer-description-title"> Be the first to test</div>
+          <p class="footer-description-details">  Hi, I'm Louis Graham, the founder of the company. Book a demo call with me to become a 
+            beta tester for our app and kickstart your company. Apply for access below and I’ll be 
+            in touch to schedule a call.</p>
+          <button class="primary-button">Apply for Access</button>
+        </div>
+      </div>
+      <img src="./assets/images/logo-dark.svg" alt="Logo Dark" />
+      <div class="social-wrapper">
+        <img src="./assets/images/icon-facebook.svg" alt="Facebook image">
+        <img src="./assets/images/icon-twitter.svg" alt="Twitter image">
+        <img src="./assets/images/icon-instagram.svg" alt="Instragram image">
+      </div>
+  </section>
 </body>
 </html>
